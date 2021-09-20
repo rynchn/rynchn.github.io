@@ -30,6 +30,10 @@ dl dd:after {
     content: '';
 }
 
+a:hover {
+    background-color: #F0F0FF;
+}
+
 span.paper {
     font-weight: bold;
 }
