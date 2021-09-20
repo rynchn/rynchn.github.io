@@ -1,0 +1,39 @@
+body {
+    margin: auto;
+    width: 1000px;
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+ul > li {
+    list-style: square;
+    margin-bottom: 1ex;
+}
+dl dt {
+    display: inline-block;
+    font-weight: bold;
+    min-width: 7em;
+    margin-right: 0;
+    margin-bottom: 0.5ex;
+}
+dl dd {
+    display: inline;
+    margin-left: 0;
+    margin-bottom: 0.5ex;
+}
+dl dd:after {
+    display: block;
+    content: '';
+}
+
+span.paper {
+    font-weight: bold;
+}
+
+span.journal {
+    font-style: italic;
+}
