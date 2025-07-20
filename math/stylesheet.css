@@ -1,3 +1,7 @@
+:root {
+    color-scheme: light dark;
+}
+
 body {
     margin: auto;
     width: 1000px;
@@ -30,8 +34,11 @@ dl dd:after {
     content: '';
 }
 
+a {
+    color: light-dark(DarkBlue, LightBlue);
+}
 a:hover {
-    background-color: #F0F0FF;
+    background-color: light-dark(rgb(from Canvas calc(r - 16) calc(g - 16) b), rgb(from Canvas r g calc(b + 48)));
 }
 
 span.paper {
